@@ -1,0 +1,654 @@
+﻿/* MainImage
+----------------------------------*/
+#mainImg{
+overflow:hidden;
+color: #FFF;
+position: relative;
+}
+
+#mainImg img{
+width: 100%;
+height: auto;
+}
+
+#mainImg img.pc{
+display: inline-block;
+}
+
+#mainImg img.sp{
+display: none;
+}
+
+#mainImg h1.access{
+font-size: 2vw;
+padding-right: 5%;
+float: left;
+}
+
+#mainImg h1.accessMain2{
+font-size: 2vw;
+padding-right: 5%;
+text-shadow:
+0 0 25px #389ad8, 
+0 0 20px #389ad8, 
+0 0 0.40px #389ad8;
+float: left;
+}
+
+#mainImg p{
+text-shadow: 
+0 0 25px #389ad8, 
+0 0 20px #389ad8, 
+0 0 0.40px #389ad8;
+font-size: 1.6vw;
+padding-top: 1.5%;
+}
+
+#mainImg p#main2{
+text-shadow: 
+0 0 25px #389ad8, 
+0 0 20px #389ad8, 
+0 0 0.40px #389ad8;
+font-size: 1.6vw;
+padding-top: 0.5%;
+}
+
+/*------ /MainImage ------------*/
+
+
+/* Common Latout, Common Title, Common pankuzu
+----------------------------------*/
+
+#companyTop, #access, #message, #history, #information{
+width: 75%;
+margin: 0 auto;
+}
+
+#companyTop div.companyTopTitle, #access div.accessTitle,
+#message div.messageTitle, #history div.historyTitle, #information div.informationTitle{
+padding-bottom: 3%;
+}
+
+#companyTop h1, #access h1, #message h1, #history h1, #information h1{
+margin: 0 auto;
+font-size: 2.5vw;
+width: 100%;
+font-weight: bold;
+padding-top: 3%;
+color: #0d12a8;
+}
+
+#companyTop h2, #access h2, #message h2, #history h2, #informatin h2{
+margin: 0 auto;
+font-size: 1.5vw;
+border-bottom: 1px solid #555;
+width: 100%;
+font-weight: bold;
+padding-top: 3%;
+color: #0d12a8;
+}
+
+p#pankuzu, p a#pankuzu{
+font-size: 1.2vw;
+padding: 1%;
+color: #000;
+line-height: 140%;
+}
+
+/*------------- /Common-------------------*/
+/* CompanyTop
+----------------------------------*/
+#companyTop img {
+width: 100%;
+height: auto;
+}
+
+#companyTop div.companyArea {
+padding: 5% 3%;
+margin: 0 auto;
+width: 95%;
+border-bottom: 1px dotted #CCC;
+margin-bottom: 7%;
+}
+
+#companyTop div.companyDetail {
+display: inline-block;
+padding: 0 4%;
+}
+
+#companyTop div.companyDetail h3 {
+font-size: 1.2vw;
+font-weight: bold;
+padding-bottom: 2%;
+}
+
+/*------------- /CompanyTop-------------------*/
+/* Message
+----------------------------------*/
+#message div.messageArea {
+padding: 1% 0;
+padding-bottom: 5%;
+}
+
+#message div.messageTop {
+padding-top: 1%;
+padding-bottom: 3%;
+}
+
+#message div.messageTop p{
+font-size: 1.2vw;
+padding-bottom: 1%;
+}
+
+#message div.messageTop img{
+padding-bottom: 3%;
+}
+
+#message div.messageDetail{
+padding: 2% 0;
+}
+
+#message div.messageDetail h3{
+color: #080c7a;
+width: 100%;
+border-bottom: 1px solid #080c7a;
+font-size: 1.5vw;
+font-weight: bold;
+margin-bottom: 1%;
+}
+
+#message div.messageDetail img{
+padding: 3% 0;
+}
+
+#message div.messageDetail p{
+font-size: 1.2vw;
+line-height: 180%;
+}
+
+#message div.messageDetail p.span{
+padding-top: 2%;
+}
+
+#message div.messageDetail p a{
+color: #000;
+}
+
+#message div.messageDetail p a:hover{
+color: #888;
+text-decoration: underline;
+}
+
+#message div.messageDetailright {
+display: block;
+float: right;
+width: 100%;
+text-align: right;
+}
+
+#message div.messageDetailright img{
+float: right;
+}
+
+#message div.messageYakuin{
+padding: 2%;
+border-bottom: 1px dotted #CCC;
+margin-bottom: 5%;
+}
+
+#message div.messageYakuinDetail1{
+width: 25%;
+display: inline-block;
+}
+
+#message div.messageYakuinDetail1 img{
+width: 90%;
+height: auto;
+}
+
+#message div.messageYakuinDetail2{
+width: 73%;
+display: inline-block;
+vertical-align: top;
+}
+
+
+#message div.messageYakuinDetail2 h3{
+font-size: 1.4vw;
+font-weight: bold;
+padding-bottom: 3%;
+}
+
+#message div.messageYakuinDetail2 p{
+font-size: 1.2vw;
+line-height: 180%;
+}
+
+/*------------- /Message-------------------*/
+/* History
+----------------------------------*/
+#history div.historyArea {
+padding-bottom: 5%;
+}
+
+#history div.historyArea p{
+font-size: 1.5vw;
+padding-bottom: 1%;
+}
+
+/*------------- /History-------------------*/
+
+/* Information
+----------------------------------*/
+#information div.informationTitle {
+font-size: 1.5vw;
+}
+
+#information div.informationArea {
+padding-bottom: 3%;
+}
+
+#information div.informationAreaGolf, #information div.informationAreaIryou {
+padding: 2% 0;
+margin: 0 auto;
+}
+
+#information div.informationAreaGolf h2, #information div.informationAreaIryou h2 {
+font-size: 2vw;
+border-bottom: 1px solid #555;
+width: 100%;
+font-weight: bold;
+color: #0d12a8;
+}
+
+#information div.informationAreaGolf p, #information div.informationAreaIryou p {
+font-size: 1.5vw;
+padding: 0;
+}
+
+#information div.informationAreaGolf img, #information div.informationAreaIryou img {
+width: 90%;
+height: auto;
+padding: 3%;
+}
+
+#information div.informationAreaGolf img.red_arrow, #information div.informationAreaIryou img.red_arrow {
+width: 10%;
+vertical-align: middle;
+}
+
+#information div.informationAreaGolf a span, #information div.informationAreaIryou a span {
+float: right;
+border: 0.5px solid #CCC;
+padding: 0.5% 2%;
+color: #333;
+font-size: 1.1vw;
+}
+
+#information div.informationAreaGolf a span:hover, #information div.informationAreaIryou a span:hover {
+color: #888;
+text-decoration: underline;
+}
+
+/*------------- /Information-------------------*/
+
+/* Access
+----------------------------------*/
+
+#access div.areaAccess {
+padding-bottom: 5%;
+}
+
+#access div.accessInfo {
+display: inline-block;
+width: 40%;
+padding-top: 1.5%;
+vertical-align: top;
+}
+
+#access div.accessInfo p, #access div.accessInfo p a{
+font-size: 1.2vw;
+padding: 0.3%;
+color: #000;
+line-height: 140%;
+}
+
+#access div.accessInfo p.top{
+padding-top: 2%;
+}
+
+#access div.accessInfo p.tel{
+padding-top: 5%;
+}
+
+#access div.accessInfo p.fax{
+padding-bottom: 2%;
+}
+
+#access div.accessInfo p a:hover{
+text-decoration: underline;
+}
+
+#access div.accessInfo img {
+vertical-align: bottom;
+padding-right: 1%;
+}
+
+#access div.gmap {
+display: inline-block;
+padding-top: 2%;
+width: 55%;
+height: 350px;
+}
+
+#access div.gmap iframe{
+width: 100%;
+height: 100%;
+}
+
+
+/*------------- /Access-------------------*/
+
+/* TABLE
+----------------------------------*/
+
+table.tbl{
+padding: 0;
+margin: 0;
+border: 0.5px solid #e8e3e3;
+width: 100%;
+}
+
+td{
+padding: 2%;
+border: 0.5px solid #e8e3e3;
+font-size: 1.2vw;
+}
+
+td.name{
+background-color: #f7f4f4;
+width:25%;
+}
+
+/*------------- /TABLE-------------------*/
+
+
+/* MainMenu_for iPad size
+------------------------------------------------------------*/
+
+@media only screen and (max-width:1024px){
+}
+
+/* under 959px over 1column For Tablet
+------------------------------------------------------------*/
+@media only screen and (max-width: 959px){
+	#wrapper, #header, .inner, #content, #theme, #news, #blog, #medal, #footer{
+	}
+
+	#info{
+	}
+}
+@media only screen and (max-width: 736px){
+}
+
+/* under width 648px For SmartPhone
+------------------------------------------------------------*/
+@media only screen and (max-width: 648px){
+	/* #mainImg */
+	#mainImg{
+	text-align: center;
+	
+	}
+	#mainImg img.pc{
+	display: none;
+	}
+	#mainImg img.sp{
+	display: block;
+	}
+	#mainImg h1{
+	font-size: 8.7vw;
+	}
+
+	#mainImg h2{
+	padding-left: 0;
+	font-size: 4vw;
+	}
+
+	#mainImg h3{
+	font-size: 7vw;
+	}
+
+	#mainImg p{
+	padding-left: 0;
+	font-size: 3vw;
+	}
+
+	#mainImg p.main{
+	font-size: 4vw;
+	padding-left: 10%;
+	width: 80%;
+	}
+
+	#mainImg p.topclass{
+	padding-left: 0;
+	}
+
+	.imgTitle{
+	position: absolute;
+	padding: 0;
+	top:20%;
+	left: 5%;
+	right: 5%;
+	bottom: 50%;
+	}
+
+	.subImgTitle1{
+	position: absolute;
+	padding: 20px;
+	top:40%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	}
+
+	.subImgTitle2{
+	position: absolute;
+	padding: 20px;
+	top:60%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	}
+	/* --- /#mainImg ---  */
+
+	/* Common Latout, Common Title, Common pankuzu
+	----------------------------------*/
+
+	#companyTop, #access, #message, #history, #information{
+	width: 90%;
+	margin: 0 auto;
+	}
+
+	#companyTop h1, #access h1, #message h1, #history h1, #information h1{
+	font-size: 8vw;
+	padding-bottom: 10%;
+	}
+
+	#companyTop h2, #access h2, #message h2, #history h2, #informatin h2{
+	font-size: 7vw;
+	}
+	
+	p#pankuzu, p a#pankuzu{
+	font-size: 5vw;
+	}
+
+	/*------------- /Common-------------------*/
+
+	/* CompanyTop
+	----------------------------------*/
+
+	#companyTop div.companyDetail h3 {
+	font-size: 5vw;
+	}
+
+	/*------------- /CompanyTop-------------------*/
+
+	/* Message
+	----------------------------------*/
+	#message h1 {
+	padding-bottom: 0;
+	}
+	
+	#message div.messageTitle{
+	padding-bottom: 0;
+	}
+	
+	#message div.messageTop{
+	padding-bottom: 10%;
+	}
+
+	#message div.messageTop p{
+	font-size: 5vw;
+	}
+
+	#message div.messageTop img{
+	width: 100%;
+	height: auto;
+	}
+
+	#message div.messageDetail {
+	padding-bottom: 15%;
+	}
+	
+	#message div.messageDetail h3{
+	font-size: 6vw;
+	}
+
+	#message div.messageDetail img{
+	width: 100%;
+	height: auto;
+	}
+
+	#message div.messageDetail p{
+	font-size: 5vw;
+	}
+	
+	#message div.messageDetail p a{
+	word-break: break-all;
+	}
+
+	#message div.messageDetailright img{
+	width: 50%;
+	}
+
+	#message div.messageYakuinDetail1{
+	width: 90%;
+	display: block;
+	}
+
+	#message div.messageYakuinDetail2{
+	width: 100%;
+	display: block;
+	}
+
+	#message div.messageYakuinDetail2 h3{
+	font-size: 6vw;
+	}
+
+	#message div.messageYakuinDetail2 p{
+	font-size: 5vw;
+	}
+
+	/*------------- /Message-------------------*/
+	/* History
+	----------------------------------*/
+	#history div.historyArea p{
+	font-size: 5vw;
+	}
+
+	/*------------- /History-------------------*/
+	/* Access
+	----------------------------------*/
+
+	#access div.accessInfo {
+	width: 100%;
+	display: block;
+	}
+
+	#access div.accessInfo p, #access div.accessInfo p a{
+	font-size: 5vw;
+	}
+
+	#access div.gmap {
+	display: block;
+	padding-top: 2%;
+	width: 100%;
+	height: 100%;
+	}
+
+
+	/*------------- /Access-------------------*/
+
+	/* Information
+	----------------------------------*/
+	#information div.informationTitle {
+	font-size: 5vw;
+	}
+
+	#information div.informationAreaGolf, #information div.informationAreaIryou {
+	padding-bottom: 20%;
+	}
+	#information div.informationAreaGolf h2, #information div.informationAreaIryou h2 {
+	font-size: 6vw;
+	}
+
+	#information div.informationAreaGolf p, #information div.informationAreaIryou p {
+	font-size: 5vw;
+	}
+
+	#information div.informationAreaGolf img.red_arrow, #information div.informationAreaIryou img.red_arrow {
+	width: 10%;
+	vertical-align: middle;
+	}
+
+	#information div.informationAreaGolf a span, #information div.informationAreaIryou a span {
+	float: right;
+	border: 0.5px solid #CCC;
+	padding: 2% 5%;
+	color: #333;
+	font-size: 4vw;
+	}
+
+	#information div.informationAreaGolf a span:hover, #information div.informationAreaIryou a span:hover {
+	color: #888;
+	text-decoration: underline;
+	}
+
+	/*------------- /Information-------------------*/
+
+	/* TABLE
+	----------------------------------*/
+
+	td{
+	display: block;
+	font-size: 5vw;
+	}
+
+	td.name{
+	width:auto;
+	}
+
+	/*------------- /TABLE-------------------*/
+
+
+}
+/* under width 644px header/footer control
+------------------------------------------------------------*/
+@media only screen and (max-width: 644px){
+#header{text-align:center;}
+#headerInfo{width:250px;ma16:17 2017/06/26rgin:0 auto;}
+img.alignright, img.alignleft{display: block;margin:5px auto;}
+.alignright,.alignleft{float:none;}
+#footer ul{text-align:left;padding:15px;}
+#footer ul ul{padding:0;}
+}

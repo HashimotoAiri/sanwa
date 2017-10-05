@@ -1,0 +1,786 @@
+/* MainImage
+----------------------------------*/
+#mainImg{
+overflow:hidden;
+color: #FFF;
+position: relative;
+}
+
+#mainImg img{
+width: 100%;
+height: auto;
+}
+
+#mainImg img.pc{
+display: inline-block;
+}
+
+#mainImg img.sp{
+display: none;
+}
+
+#mainImg h1.systemMain{
+font-size: 3vw;
+padding-right: 5%;
+text-shadow:
+0 0 25px #389ad8, 
+0 0 20px #389ad8, 
+0 0 0.40px #389ad8;
+float: left;
+}
+
+#mainImg h1.systemMain2{
+font-size: 2vw;
+padding-right: 5%;
+text-shadow:
+0 0 25px #389ad8, 
+0 0 20px #389ad8, 
+0 0 0.40px #389ad8;
+float: left;
+}
+
+#mainImg p{
+text-shadow: 
+0 0 25px #389ad8, 
+0 0 20px #389ad8, 
+0 0 0.40px #389ad8;
+font-size: 1.6vw;
+padding-top: 1.5%;
+}
+
+#mainImg p#main2{
+text-shadow: 
+0 0 25px #389ad8, 
+0 0 20px #389ad8, 
+0 0 0.40px #389ad8;
+font-size: 1.6vw;
+padding-top: 0.5%;
+}
+
+/*------ /MainImage ------------*/
+
+/* System
+----------------------------------*/
+#system, #voice {
+width: 75%;
+margin: 0 auto;
+}
+
+#system h1{
+font-size: 2.5vw;
+font-weight: bold;
+padding-top: 3%;
+color: #0d12a8;
+}
+
+#system h2{
+margin: 0 auto;
+text-align: center;
+font-size: 2vw;
+border-bottom: 1px solid #555;
+width: 40%;
+font-weight: bold;
+padding-top: 3%;
+color: #0d12a8;
+}
+
+#system p, #system p a{
+font-size: 1.2vw;
+padding: 1%;
+color: #000;
+line-height: 140%;
+}
+
+#system p a:hover{
+text-decoration: underline;
+}
+
+#system div.systemImage{
+max-width: 70%;
+margin: 0 auto;
+}
+
+#system div.systemImage2{
+max-width: 85%;
+margin: 0 auto;
+}
+
+#system div.systemImage img, #system div.systemImage2 img{
+width: 100%;
+height: auto;
+}
+
+#system div.systemImageDisc {
+width: 100%;
+text-align: center;
+margin: 0 auto;
+}
+
+#system div.systemImageDisc p#main{
+display: block;
+font-size: 1.5vw;
+background: #eaecf2;
+}
+#system div.systemImageDisc p#main2{
+display: block;
+font-size: 1.5vw;
+background: #f9fffe;
+}
+
+#box1 {
+position: relative;
+display: inline-block;
+padding: 10px 15px;
+width: auto;
+min-width: 100%;
+height: 40px;
+color: #F6F6F6;
+font-size: 1.8vw;
+line-height: 40px;
+text-align: center;
+background: #17297c;
+z-index: 0;
+}
+#box1 h1 {
+color: #FFF;
+padding-top: 0;
+}
+#box1:after {
+content: "";
+position: absolute;
+bottom: -10px; left: 50%;
+margin-left: -10px;
+display: block;
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 10px 10px 0 10px;
+border-color: #17297c transparent transparent transparent;
+}
+#box2 h1 {
+color: #FFF;
+padding-top: 0;
+}
+#box2 h1.b3 {
+font-size: 2.3vw;
+}
+#box2 h1 br {
+display: none;
+}
+#box2 {
+position: relative;
+display: inline-block;
+padding: 10px 15px;
+width: auto;
+min-width: 100%;
+height: 40px;
+color: #F6F6F6;
+font-size: 1.8vw;
+line-height: 40px;
+text-align: center;
+background: #17297c;
+z-index: 0;
+}
+
+#system div.box2 {
+margin-top: -1%;
+position: relative;
+display: inline-block;
+padding: 10px 15px;
+width: auto;
+min-width: 100%;
+box-shadow:2px 2px 10px;
+}
+
+#system div.box-in {
+padding: 2.2%;
+margin: 2.7%;
+font-weight: bold;
+font-size: 1.2vw;
+text-align: center;
+width: 15%;
+float: left;
+box-shadow:1px 1px 5px;
+}
+
+#system div.box-in2 {
+padding: 1%;
+padding-left: 2.5%;
+padding-right: 2%;
+margin: 2.6%;
+font-weight: bold;
+font-size: 1.2vw;
+text-align: center;
+width: 15%;
+float: left;
+box-shadow:1px 1px 5px;
+}
+
+#system div.box-in3 {
+padding: 0.5%;
+padding-top: 1%;
+padding-bottom: 1%;
+margin: 2.6%;
+font-weight: bold;
+font-size: 0.8vw;
+text-align: center;
+width: 18.5%;
+float: left;
+box-shadow:1px 1px 5px;
+}
+
+#system div.discription1 {
+text-align: center;
+padding-top: 10%;
+padding-bottom: 1%;
+}
+
+#system div.discription2 {
+text-align: center;
+padding-top: 1%;
+padding-bottom: 10%;
+}
+
+#system div.discription1 h4, .discription2 h4 {
+font-weight: bold;
+font-size: 1.6vw;
+color: #555;
+}
+
+#system div.uekakko {
+float: left;
+padding-top: 5%;
+padding-left: 5%;
+margin-right: 100%;
+margin-bottom: 5%;
+border-top: 0.5px solid #CCC;
+border-left: 0.5px solid #CCC;
+}
+
+#system div.shitakakko {
+float: right;
+padding-bottom: 5%;
+padding-right: 5%;
+border-bottom: 0.5px solid #CCC;
+border-right: 0.5px solid #CCC;
+}
+
+#system div.support {
+padding: 5%;
+}
+
+#system div.support2 {
+padding: 5%;
+margin: 0 auto;
+width: 70%;
+}
+
+#system div.support3, .support4 {
+padding: 2%;
+}
+
+#system div.support5 {
+padding-bottom: 5%;
+}
+
+#system div.support2 img, #system div.support3 img, #system div.support4 img , #system div.support5 img{
+width: 100%;
+height: auto;
+}
+
+#voice div.voice {
+padding: 5%;
+}
+
+#voice div.voiceBox {
+width: 100%;
+padding: 5%;
+}
+
+#voice div.voiceBoxSample {
+width: 45%;
+display: inline-block;
+}
+
+#voice div.voiceBoxSample img {
+float: left;
+width: 25%;
+padding: 3%;
+height: auto;
+}
+
+#voice div.voiceBoxSample img.blueArrow {
+display: none;
+}
+
+#voice div.voiceBoxSampleDisc {
+padding: 5%;
+}
+#voice div.voiceBoxSampleDisc span {
+float: left;
+padding: 2%;
+font-size: 1vw;
+border: 1px solid #eae8e8;
+}
+
+#voice div.voiceBoxSampleDisc span.th {
+background-color: #eae8e8;
+}
+
+#voice div.voiceBoxSampleDisc h4 {
+float: none;
+width: 90%;
+font-size: 1.3vw;
+}
+
+#system div.btn {
+float: right;
+border: 1px solid #eae8e8;
+padding: 1% 10%;
+}
+
+#system div.btn:hover {
+background-color: #f9efef;
+}
+
+#system div.btn a {
+color: #000;
+}
+
+#system div.btn a:hover {
+text-decoration: underline;
+color: #777;
+}
+
+#system div.subTitle {
+width: 100%;
+}
+
+#system div.subTitle2 {
+padding: 5%;
+padding-bottom: 5%;
+width: 40%;
+float: left;
+}
+
+#system div.subTitle2 img{
+width: 100%;
+height: auto;
+}
+
+#system div.subTitle2 h2#subTitleH2 {
+font-size: 2vw;
+width: 80%;
+}
+
+#system div.subTitle2 p#subTitleP {
+text-align: center;
+font-size: 1vw;
+line-height: 180%;
+}
+
+#system div.demoImage {
+padding: 5%;
+max-width: 40%;
+margin: 0 auto;
+}
+
+#system div.demoImage img {
+width: 100%;
+height: auto;
+}
+
+#system div.subBtn {
+padding: 1px;
+margin: 0 auto;
+}
+
+#system div.subBtn img {
+padding: 1%;
+width: 30%;
+height: auto;
+}
+
+#system div.reserveArea1 {
+width: 90%;
+padding-top: 6%;
+padding-bottom: 10%;
+padding-left: 20%;
+}
+
+#system div.reserveArea1 img {
+float: left;
+width: 20%;
+height: auto;
+padding-bottom: 2%;
+}
+#system div.reserveArea1 h2#reserve {
+border-bottom: 1px solid #FFF;
+text-align: left;
+}
+
+#system div.reserveArea1 h2#reserve2 {
+border-bottom: 1px solid #FFF;
+text-align: left;
+padding-bottom: 5%;
+}
+
+#system div.reserveArea1 p#reserve {
+padding-left: 30%;
+text-align: left;
+}
+#system ul {
+display:table;
+width:100%;
+margin:0;
+padding:0;
+padding: 3% 0;
+}
+#system ul li {
+display:table-cell;
+width:25%;
+padding-bottom: 5%;
+border-bottom:1px solid #ddd;
+list-style:none;
+}
+#system div.reserveArea2 {
+padding: 1px;
+padding-bottom: 12%;
+margin: 0 auto;
+width:100%;
+}
+
+#system div.reserveArea2 img {
+padding:0 5%;
+width: 88%;
+height: auto;
+}
+
+#system div.reserveArea2 h2#rA2 {
+float: left;
+border-bottom: 1px solid #FFF;
+font-size: 1.5vw;
+width: 100%;
+padding-bottom: 0;
+}
+
+#system div.reserveArea2 p#rA2 {
+float: left;
+width: 100%;
+text-align: center;
+padding-left: 3%;
+}
+/*------------- /System-------------------*/
+
+/* MainMenu_for iPad size
+------------------------------------------------------------*/
+
+@media only screen and (max-width:1024px){
+}
+
+/* under 959px over 1column For Tablet
+------------------------------------------------------------*/
+@media only screen and (max-width: 959px){
+	#wrapper, #header, .inner, #content, #theme, #news, #blog, #medal, #footer{
+	}
+
+	#info{
+	}
+}
+@media only screen and (max-width: 736px){
+}
+
+/* under width 648px For SmartPhone
+------------------------------------------------------------*/
+@media only screen and (max-width: 648px){
+	/* mainImg
+	----------------------------------*/
+	#mainImg{
+	text-align: center;
+	
+	}
+	#mainImg img.pc{
+	display: none;
+	}
+	#mainImg img.sp{
+	display: block;
+	}
+	#mainImg h1{
+	font-size: 8.7vw;
+	}
+
+	#mainImg h2{
+	padding-left: 0;
+	font-size: 4vw;
+	}
+
+	#mainImg h3{
+	font-size: 7vw;
+	}
+
+	#mainImg p{
+	padding-left: 0;
+	font-size: 3vw;
+	}
+
+	#mainImg p.main{
+	font-size: 4vw;
+	padding-left: 10%;
+	width: 80%;
+	}
+
+	#mainImg p.topclass{
+	padding-left: 0;
+	}
+
+	.imgTitle{
+	position: absolute;
+	padding: 0;
+	top:20%;
+	left: 5%;
+	right: 5%;
+	bottom: 50%;
+	}
+
+	.subImgTitle1{
+	position: absolute;
+	padding: 20px;
+	top:40%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	}
+
+	.subImgTitle2{
+	position: absolute;
+	padding: 20px;
+	top:60%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	}
+	/* --- /#mainImg ---  */
+
+	/* System
+	----------------------------------*/
+	#system {
+	width: 75%;
+	}
+	#system p, #system p a {
+	font-size: 5vw;
+	}
+	#system h1 {
+	font-size: 8.3vw;
+	}
+	#system h1.ntGolf {
+	font-size: 8vw;
+	}
+	#system h1 br {
+	display: none;
+	}
+	#system p br {
+	display: none;
+	}
+	#system p.ntGolf br {
+	display: none;
+	}
+	#box1 {
+	min-width: 90%;
+	font-size: 3vw;
+	}
+	#box1 h1 {
+	font-size: 5vw;
+	}
+	#box1 h1.b1 {
+	font-size: 3.5vw;
+	}
+	#box2 {
+	min-width: 90%;
+	white-space: nowrap;
+	}
+	#box2 h1 {
+	font-size: 5vw;
+	}
+	#box2 h1.b3 br {
+	display: block;
+	}
+	#box2 h1.b2 {
+	font-size: 4vw;
+	}
+	#box2 h1.b3 {
+	font-size: 4.5vw;
+	line-height: 140%;
+	}
+	
+	#system div.box2 {
+	min-width: 90%;
+	}
+	#system div.box-in {
+	font-size: 3vw;
+	width: 40%;
+	padding: 5% 2%
+	}
+	#system div.box-in2 {
+	font-size: 3vw;
+	width: 40%;
+	padding: 1.6% 1.6%;
+	}
+	#system div.box-in3 {
+	font-size: 2vw;
+	width: 40%;
+	padding: 2.3% 2%;
+	line-height: 138%;
+	}
+	#system div.box-in3 br {
+	display: none;
+	}
+	#system div.discription1, #system div.discription2  {
+	width: 90%;
+	margin: 0 auto;
+	}
+	#system div.discription1 h4, #system div.discription2 h4 {
+	font-size: 4vw;
+	text-align: left;
+	}
+	#system div.discription1 br, .discription2 br {
+	display: none;
+	}
+	#system div.subTitle h2{
+	font-size: 8vw;
+	width: 100%;
+	}
+	#system div.support {
+	padding: 0;
+	padding-bottom: 5%;
+	}
+	#system div.support br, #system div.support2 br, #system div.support3 br, #system div.support4 br, #system div.support5 br {
+	display:none;
+	}
+	#system div.support h2 {
+	font-size: 0px;
+	-webkit-text-size-adjust: none;
+	}
+	#system div.systemImageDisc p#main{
+	font-size: 5vw;
+	}
+	#system div.systemImageDisc p#main2{
+	font-size: 5vw;
+	}
+	#system div.subTitle2 {
+	padding: 5% 0;
+	width: 100%;
+	margin: 0 auto;
+	}
+	#system div.subTitle2 h2#subTitleH2 {
+	font-size: 7vw;
+	}
+	#system div.subTitle2 p#subTitleP {
+	text-align: left;
+	font-size: 5vw;
+	}
+	#system div.subTitle2 p#subTitleP br {
+	display:none;
+	}
+	#system div.reserveArea1 {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin: 0 auto;
+	}
+	#system div.reserveArea1 img {
+	width: 100%;
+	}
+	#system div.reserveArea1 h2#reserve {
+	width: 100%;
+	font-size: 7vw;
+	}
+	#system div.reserveArea1 p#reserve {
+	width: 100%;
+	padding-left: 0;
+	font-size: 5vw;
+	}
+	#system div.reserveArea1 p#reserve br {
+	display: none;
+	}
+	#system div.reserveArea1 h2#reserve2 {
+	font-size: 6vw;
+	width: 100%;
+	}
+	#system ul {
+	display:block;
+	}
+	#system ul li {
+	display:block;
+	width:100%;
+	}
+	#system div.reserveArea2 img {
+	width: 100%;
+	height: auto;
+	}
+	#system div.reserveArea2 h2#rA2 {
+	font-size: 7vw;
+	width: 100%;
+	}
+	#system div.reserveArea2 p#rA2 {
+	width: 100%;
+	}
+	#system div.demoImage {
+	max-width: 90%;
+	}
+
+
+	/* --- /#system ---  */
+
+	/* Voice(Common)
+	----------------------------------*/
+	#voice {
+	width: 100%;
+	}
+	#voice div.voice {
+	padding: 0;
+	padding-bottom: 5%;
+	}
+	#voice div.voiceBox {
+	width: 100%;
+	padding: 0;
+	}
+	#voice div.voiceBoxSampleDisc span.th, .voiceBoxSampleDisc h4,.btn  {
+	display: none;
+	}
+	#voice div.voiceBoxSample {
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+	}
+	#voice div.voiceBoxSample span {
+	border: 1px solid #FFF;
+	padding: 0;
+	padding-top: 3%;
+	padding-left: 3%;
+	font-size: 4.5vw;
+	}
+	#voice div.voiceBoxSample span:hover {
+	text-decoration: underline;
+	}
+	#voice div.voiceBoxSample img {
+	width: 17%;
+	padding: 2% 0;
+	float: left;
+	}
+	#voice div.voiceBoxSample img.blueArrow {
+	display: block;
+	width: 13%;
+	float: right;
+	}
+	/* --- /#voice ---  */
+
+}
+/* under width 644px header/footer control
+------------------------------------------------------------*/
+@media only screen and (max-width: 644px){
+#header{text-align:center;}
+#headerInfo{width:250px;ma16:17 2017/06/26rgin:0 auto;}
+img.alignright, img.alignleft{display: block;margin:5px auto;}
+.alignright,.alignleft{float:none;}
+#footer ul{text-align:left;padding:15px;}
+#footer ul ul{padding:0;}
+}

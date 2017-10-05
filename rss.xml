@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+
+<title>三和システム ≫ | 三和システム</title>
+<description>三和システム株式会社公式ウェブサイト。信頼・実績 ゴルフ場システム/web予約 情報武装により経営効率を支援します。</description>
+<link>http://goodstory.site/sanwa_re/</link>
+<language>ja</language>
+<pubDate>Fri, 4 Aug 2017 00:00:00 +0900</pubDate>
+<lastBuildDate>Fri, 4 Aug 2017 00:00:00 +0900</lastBuildDate>
+<generator>Crescend Eve Version 0.94</generator>
+<copyright>>Copyright SANWA SYSTEMS CO.,LTD</copyright>
+
+<item>
+<title/>
+<link>http://www.sanwasystem.com/11/</link>
+<comments>http://www.sanwasystem.com/11/#comments</comments>
+<pubDate>Tue, 16 Apr 2013 17:15:55 +0000</pubDate>
+<dc:creator>
+<![CDATA[ sanwa_admin ]]>
+</dc:creator>
+<category>
+<![CDATA[ 未分類 ]]>
+</category>
+<guid isPermaLink="false">http://sanwa.v-colors.com/?p=11</guid>
+<description>
+<![CDATA[ [contact_main] ]]>
+</description>
+<content:encoded>
+<![CDATA[ <p>[contact_main]</p> ]]>
+</content:encoded>
+<wfw:commentRss>http://www.sanwasystem.com/11/feed/</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Hello world!</title>
+<link>http://www.sanwasystem.com/hello-world/</link>
+<comments>http://www.sanwasystem.com/hello-world/#comments</comments>
+<pubDate>Tue, 16 Apr 2013 17:01:17 +0000</pubDate>
+<dc:creator>
+<![CDATA[ sanwa_admin ]]>
+</dc:creator>
+<category>
+<![CDATA[ 未分類 ]]>
+</category>
+<guid isPermaLink="false">http://sanwa.v-colors.com/?p=1</guid>
+<description>
+<![CDATA[ WordPress へようこそ。これは最初の投稿です。編集もしくは削除してブログを始めてください ! ]]>
+</description>
+<content:encoded>
+<![CDATA[
+<p>WordPress へようこそ。これは最初の投稿です。編集もしくは削除してブログを始めてください !</p>
+]]>
+</content:encoded>
+<wfw:commentRss>http://www.sanwasystem.com/hello-world/feed/</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+
+</channel>
+</rss>
